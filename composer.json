@@ -1,0 +1,19 @@
+{
+    "name": "neenathakur23/exampleaes",
+    "description": "PHP AES - Coding test",
+    "type": "library",
+    "keywords": ["aes", "encryption", "mcrypt", "openssl"],
+    "homepage": "https://github.com/neenathakur23/encryptionclient",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-mcrypt": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": { "exampleaes\\": "src/" }
+    }
+}
